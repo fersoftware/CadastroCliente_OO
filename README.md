@@ -1,8 +1,8 @@
 --------------------------------
-exemplo para acesso:
-cd src
-cd Fersoftware
-php -S 127.0.0.1:8020
+exemplo para acesso:<br>
+cd src<br>
+cd Fersoftware<br>
+php -S 127.0.0.1:8020<br>
 ---------------------------------
 
 -------------------------------------------
