@@ -4,12 +4,10 @@ define('CLASS_DIR',str_replace('\\Fersoftware', '', getcwd()));
 set_include_path(CLASS_DIR);
 spl_autoload_register();
 
-use Fersoftware\Cliente\PessoaFisica;
-use Fersoftware\Cliente\Endereco;
-use Fersoftware\Cliente\PessoaJuridica;
-use Fersoftware\Cliente\Functions\Tool;
-
-$tool = new Tool();
+use Fersoftware\Classes\PessoaFisica;
+use Fersoftware\Classes\Endereco;
+use Fersoftware\Classes\PessoaJuridica;
+use Fersoftware\Functions\Tool;
 
 $clientela = new PessoaFisica(1,'Fernando Alves da Silva','11 2321-3625','30.956.365-25');
 $clientela->addEndereco(new Endereco('Alameda dos Primarios, 100','Jardim I Sul','São Paulo','SP','04061-001',0))
@@ -77,13 +75,13 @@ $clientelaArr[] = $clientela;
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       <meta name="description" content="Desafio1 PHP OO"/>
       <meta name="author" content="fersoftware"/>
-      <link href="css/bootstrap.css" rel="stylesheet"/>
+      <link href="assets/css/bootstrap.css" rel="stylesheet"/>
       <style>
 body {
     padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
          }
       </style>
-      <link href="css/bootstrap-responsive.css" rel="stylesheet"/>
+      <link href="assets/css/bootstrap-responsive.css" rel="stylesheet"/>
        <script src="assets/js/src/jquery-latest.js"></script>
        <script src="assets/js/jquery.js"></script>
        <script src="assets/js/src/jquery.tablesorter.js"></script>
@@ -150,7 +148,7 @@ body {
                 ?>
                 <tr>
                     <td><?php	echo $dbcliente->getId(); ?></td>
-                    <td><?php	echo $tool->ListStars($dbcliente->getStars()); ?></td>
+                    <td><?php	echo Tool::ListStars($dbcliente->getStars()); ?></td>
                     <?php
                         if(strlen($dbcliente->getCPFCNPJ()) < 15 )
                         {
@@ -170,7 +168,7 @@ body {
 
 
                     <td><?php	echo $dbcliente->getTelefone(); ?></td>
-                    <td><a data-toggle="modal" data-toggle="popover"  href="?id=<?php	echo $key; ?>" class="btn btn-primary btn-large"><i class="icon-zoom-in"></i></a></td>
+                    <td><a data-toggle="modal" href="?id=<?php	echo $key; ?>" class="btn btn-primary btn-large"><i class="icon-zoom-in"></i></a></td>
                 </tr>
                 <?php
             }
