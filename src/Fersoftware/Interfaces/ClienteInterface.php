@@ -1,8 +1,8 @@
 <?php
 
 namespace Fersoftware\Interfaces;
-
 use Fersoftware\Classes\Endereco;
+
 
 interface ClienteInterface
 {

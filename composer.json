@@ -1,0 +1,8 @@
+{
+	"name" : "Cadastro de Clientes PDO PHP OO",
+	"autoload" : {
+		"psr-4" : {
+			"Fersoftware\\":"src/Fersoftware/"
+		}
+	}
+}

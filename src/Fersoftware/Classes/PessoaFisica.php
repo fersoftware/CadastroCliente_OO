@@ -54,6 +54,7 @@ class PessoaFisica implements ClienteInterface
         return $this;
     }
 
+
     public function getStars()
     {
         return $this->stars;
