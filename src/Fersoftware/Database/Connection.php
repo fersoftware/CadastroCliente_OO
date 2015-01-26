@@ -10,10 +10,10 @@ class Connection
 
     public function __construct()
     {
-        $config = self::$config = parse_ini_file(__DIR__."/config.ini", true);
-        $this->dsn = "{$config['driver']}:host={$config['host']};dbname={$config['dbName']}";
-        $this->username = $config['user'];
-        $this->password = $config['pass'];
+        $config = self::$config = parse_ini_file("config.ini", true);
+        $this->dsn = "{$config['database']['driver']}:host={$config['database']['host']};dbname={$config['database']['dbName']}";
+        $this->username = $config['database']['user'];
+        $this->password = $config['database']['pass'];
     }
 
     public static function getConfig($x)
