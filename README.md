@@ -2,8 +2,8 @@
 É necessário criar o banco: cadclientedb<br>
 acessar a pasta CadastroCliente_OO<br> 
 depois só digitar: php -S 127.0.0.1:8020 -t public_html<br>
-depois rodar o fixtures http://128.0.0.1:8020/fixtures.php
-depois só rodar http://128.0.0.1:8020
+depois rodar o fixtures http://127.0.0.1:8020/fixtures.php
+depois só rodar http://127.0.0.1:8020
 ---------------------------------
 
 --------------------------------
