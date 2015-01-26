@@ -5,22 +5,20 @@ namespace Fersoftware\Database;
 
 class Connection
 {
+    private static $config = array();
     private $conn;
-    private $dsn;
-    private $username;
-    private $password;
 
     public function __construct()
     {
-        $driver = 'mysql';
-        $host = 'localhost';
-        $dbname = 'cadclientedb';
-        $user = 'root';
-        $pass = '102030';
+        $config = self::$config = parse_ini_file(__DIR__."/config.ini", true);
+        $this->dsn = "{$config['driver']}:host={$config['host']};dbname={$config['dbName']}";
+        $this->username = $config['user'];
+        $this->password = $config['pass'];
+    }
 
-        $this->dsn = "{$driver}:host={$host};dbname={$dbname}";
-        $this->username = $user;
-        $this->password = $pass;
+    public static function getConfig($x)
+    {
+        return self::$config[$x];
     }
 
     public function getConnection()

@@ -1,82 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b7ff934e-4340-42b5-9951-f7a62f0d66fa" name="Default" comment="Refatorando">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/composer.phar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Fersoftware/Database/Connection.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Fersoftware/Database/Query.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/autoload.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cadclientedb.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/fixtures.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Fersoftware/assets/addons/pager/jquery.tablesorter.pager.css" afterPath="$PROJECT_DIR$/public_html/assets/addons/pager/jquery.tablesorter.pager.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Fersoftware/assets/addons/pager/jquery.tablesorter.pager.js" afterPath="$PROJECT_DIR$/public_html/assets/addons/pager/jquery.tablesorter.pager.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Fersoftware/assets/css/bootstrap-responsive.css" afterPath="$PROJECT_DIR$/public_html/assets/css/bootstrap-responsive.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Fersoftware/assets/css/bootstrap-responsive.min.css" afterPath="$PROJECT_DIR$/public_html/assets/css/bootstrap-responsive.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Fersoftware/assets/css/bootstrap.css" afterPath="$PROJECT_DIR$/public_html/assets/css/bootstrap.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Fersoftware/assets/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/public_html/assets/css/bootstrap.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Fersoftware/assets/css/jq.css" afterPath="$PROJECT_DIR$/public_html/assets/css/jq.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Fersoftware/assets/img/glyphicons-halflings-white.png" afterPath="$PROJECT_DIR$/public_html/assets/img/glyphicons-halflings-white.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Fersoftware/assets/img/glyphicons-halflings.png" afterPath="$PROJECT_DIR$/public_html/assets/img/glyphicons-halflings.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Fersoftware/assets/js/bootstrap-alert.js" afterPath="$PROJECT_DIR$/public_html/assets/js/bootstrap-alert.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Fersoftware/assets/js/bootstrap-button.js" afterPath="$PROJECT_DIR$/public_html/assets/js/bootstrap-button.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Fersoftware/assets/js/bootstrap-carousel.js" afterPath="$PROJECT_DIR$/public_html/assets/js/bootstrap-carousel.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Fersoftware/assets/js/bootstrap-collapse.js" afterPath="$PROJECT_DIR$/public_html/assets/js/bootstrap-collapse.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Fersoftware/assets/js/bootstrap-dropdown.js" afterPath="$PROJECT_DIR$/public_html/assets/js/bootstrap-dropdown.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Fersoftware/assets/js/bootstrap-modal.js" afterPath="$PROJECT_DIR$/public_html/assets/js/bootstrap-modal.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Fersoftware/assets/js/bootstrap-popover.js" afterPath="$PROJECT_DIR$/public_html/assets/js/bootstrap-popover.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Fersoftware/assets/js/bootstrap-scrollspy.js" afterPath="$PROJECT_DIR$/public_html/assets/js/bootstrap-scrollspy.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Fersoftware/assets/js/bootstrap-tab.js" afterPath="$PROJECT_DIR$/public_html/assets/js/bootstrap-tab.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Fersoftware/assets/js/bootstrap-tooltip.js" afterPath="$PROJECT_DIR$/public_html/assets/js/bootstrap-tooltip.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Fersoftware/assets/js/bootstrap-transition.js" afterPath="$PROJECT_DIR$/public_html/assets/js/bootstrap-transition.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Fersoftware/assets/js/bootstrap-typeahead.js" afterPath="$PROJECT_DIR$/public_html/assets/js/bootstrap-typeahead.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Fersoftware/assets/js/customize.min.js" afterPath="$PROJECT_DIR$/public_html/assets/js/customize.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Fersoftware/assets/js/docs.min.js" afterPath="$PROJECT_DIR$/public_html/assets/js/docs.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Fersoftware/assets/js/ie-emulation-modes-warning.js" afterPath="$PROJECT_DIR$/public_html/assets/js/ie-emulation-modes-warning.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Fersoftware/assets/js/ie10-viewport-bug-workaround.js" afterPath="$PROJECT_DIR$/public_html/assets/js/ie10-viewport-bug-workaround.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Fersoftware/assets/js/ie8-responsive-file-warning.js" afterPath="$PROJECT_DIR$/public_html/assets/js/ie8-responsive-file-warning.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Fersoftware/assets/js/jquery.js" afterPath="$PROJECT_DIR$/public_html/assets/js/jquery.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Fersoftware/assets/js/raw-files.min.js" afterPath="$PROJECT_DIR$/public_html/assets/js/raw-files.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Fersoftware/assets/js/sort_table.js" afterPath="$PROJECT_DIR$/public_html/assets/js/sort_table.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Fersoftware/assets/js/src/application.js" afterPath="$PROJECT_DIR$/public_html/assets/js/src/application.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Fersoftware/assets/js/src/customizer.js" afterPath="$PROJECT_DIR$/public_html/assets/js/src/customizer.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Fersoftware/assets/js/src/docs.js" afterPath="$PROJECT_DIR$/public_html/assets/js/src/docs.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Fersoftware/assets/js/src/examples.js" afterPath="$PROJECT_DIR$/public_html/assets/js/src/examples.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Fersoftware/assets/js/src/init.js" afterPath="$PROJECT_DIR$/public_html/assets/js/src/init.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Fersoftware/assets/js/src/jquery-latest.js" afterPath="$PROJECT_DIR$/public_html/assets/js/src/jquery-latest.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Fersoftware/assets/js/src/jquery.metadata.js" afterPath="$PROJECT_DIR$/public_html/assets/js/src/jquery.metadata.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Fersoftware/assets/js/src/jquery.tablesorter.js" afterPath="$PROJECT_DIR$/public_html/assets/js/src/jquery.tablesorter.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Fersoftware/assets/js/src/jquery.tablesorter.min.js" afterPath="$PROJECT_DIR$/public_html/assets/js/src/jquery.tablesorter.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Fersoftware/assets/js/vendor/Blob.js" afterPath="$PROJECT_DIR$/public_html/assets/js/vendor/Blob.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Fersoftware/assets/js/vendor/FileSaver.js" afterPath="$PROJECT_DIR$/public_html/assets/js/vendor/FileSaver.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Fersoftware/assets/js/vendor/ZeroClipboard.min.js" afterPath="$PROJECT_DIR$/public_html/assets/js/vendor/ZeroClipboard.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Fersoftware/assets/js/vendor/autoprefixer.js" afterPath="$PROJECT_DIR$/public_html/assets/js/vendor/autoprefixer.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Fersoftware/assets/js/vendor/holder.js" afterPath="$PROJECT_DIR$/public_html/assets/js/vendor/holder.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Fersoftware/assets/js/vendor/jszip.min.js" afterPath="$PROJECT_DIR$/public_html/assets/js/vendor/jszip.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Fersoftware/assets/js/vendor/less.min.js" afterPath="$PROJECT_DIR$/public_html/assets/js/vendor/less.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Fersoftware/assets/js/vendor/uglify.min.js" afterPath="$PROJECT_DIR$/public_html/assets/js/vendor/uglify.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Fersoftware/assets/themes/blue/asc.gif" afterPath="$PROJECT_DIR$/public_html/assets/themes/blue/asc.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Fersoftware/assets/themes/blue/bg.gif" afterPath="$PROJECT_DIR$/public_html/assets/themes/blue/bg.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Fersoftware/assets/themes/blue/blue.zip" afterPath="$PROJECT_DIR$/public_html/assets/themes/blue/blue.zip" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Fersoftware/assets/themes/blue/desc.gif" afterPath="$PROJECT_DIR$/public_html/assets/themes/blue/desc.gif" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Fersoftware/assets/themes/blue/style.css" afterPath="$PROJECT_DIR$/public_html/assets/themes/blue/style.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Fersoftware/index.php" afterPath="$PROJECT_DIR$/public_html/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Fersoftware/Interfaces/ClienteInterface.php" afterPath="$PROJECT_DIR$/src/Fersoftware/Interfaces/ClienteInterface.php" />
+    <list default="true" id="b7ff934e-4340-42b5-9951-f7a62f0d66fa" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Fersoftware/Database/config.ini" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/assets/js/vendor/Blob.js" afterPath="$PROJECT_DIR$/public_html/assets/js/vendor/Blob.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Fersoftware/Database/Connection.php" afterPath="$PROJECT_DIR$/src/Fersoftware/Database/Connection.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Desafio_02.iml" afterPath="$PROJECT_DIR$/.idea/Desafio_02.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Fersoftware/Classes/PessoaFisica.php" afterPath="$PROJECT_DIR$/src/Fersoftware/Classes/PessoaFisica.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/assets/js/vendor/FileSaver.js" afterPath="$PROJECT_DIR$/public_html/assets/js/vendor/FileSaver.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Fersoftware/Database/Query.php" afterPath="$PROJECT_DIR$/src/Fersoftware/Database/Query.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Fersoftware/Functions/Tool.php" afterPath="$PROJECT_DIR$/src/Fersoftware/Functions/Tool.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/assets/js/vendor/ZeroClipboard.min.js" afterPath="$PROJECT_DIR$/public_html/assets/js/vendor/ZeroClipboard.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/assets/js/src/application.js" afterPath="$PROJECT_DIR$/public_html/assets/js/src/application.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/assets/js/vendor/autoprefixer.js" afterPath="$PROJECT_DIR$/public_html/assets/js/vendor/autoprefixer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/assets/js/bootstrap-alert.js" afterPath="$PROJECT_DIR$/public_html/assets/js/bootstrap-alert.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/assets/js/bootstrap-button.js" afterPath="$PROJECT_DIR$/public_html/assets/js/bootstrap-button.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/assets/js/bootstrap-carousel.js" afterPath="$PROJECT_DIR$/public_html/assets/js/bootstrap-carousel.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/assets/js/bootstrap-collapse.js" afterPath="$PROJECT_DIR$/public_html/assets/js/bootstrap-collapse.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/assets/js/bootstrap-dropdown.js" afterPath="$PROJECT_DIR$/public_html/assets/js/bootstrap-dropdown.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/assets/js/bootstrap-modal.js" afterPath="$PROJECT_DIR$/public_html/assets/js/bootstrap-modal.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/assets/js/bootstrap-popover.js" afterPath="$PROJECT_DIR$/public_html/assets/js/bootstrap-popover.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/assets/css/bootstrap-responsive.css" afterPath="$PROJECT_DIR$/public_html/assets/css/bootstrap-responsive.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/assets/css/bootstrap-responsive.min.css" afterPath="$PROJECT_DIR$/public_html/assets/css/bootstrap-responsive.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/assets/js/bootstrap-scrollspy.js" afterPath="$PROJECT_DIR$/public_html/assets/js/bootstrap-scrollspy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/assets/js/bootstrap-tab.js" afterPath="$PROJECT_DIR$/public_html/assets/js/bootstrap-tab.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/assets/js/bootstrap-tooltip.js" afterPath="$PROJECT_DIR$/public_html/assets/js/bootstrap-tooltip.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/assets/js/bootstrap-transition.js" afterPath="$PROJECT_DIR$/public_html/assets/js/bootstrap-transition.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/assets/js/bootstrap-typeahead.js" afterPath="$PROJECT_DIR$/public_html/assets/js/bootstrap-typeahead.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/assets/css/bootstrap.css" afterPath="$PROJECT_DIR$/public_html/assets/css/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/assets/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/public_html/assets/css/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cadclientedb.sql" afterPath="$PROJECT_DIR$/cadclientedb.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/assets/js/customize.min.js" afterPath="$PROJECT_DIR$/public_html/assets/js/customize.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/assets/js/src/customizer.js" afterPath="$PROJECT_DIR$/public_html/assets/js/src/customizer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/assets/js/src/docs.js" afterPath="$PROJECT_DIR$/public_html/assets/js/src/docs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/assets/js/docs.min.js" afterPath="$PROJECT_DIR$/public_html/assets/js/docs.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/assets/js/src/examples.js" afterPath="$PROJECT_DIR$/public_html/assets/js/src/examples.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/fixtures.php" afterPath="$PROJECT_DIR$/public_html/fixtures.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/assets/js/vendor/holder.js" afterPath="$PROJECT_DIR$/public_html/assets/js/vendor/holder.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/assets/js/ie-emulation-modes-warning.js" afterPath="$PROJECT_DIR$/public_html/assets/js/ie-emulation-modes-warning.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/assets/js/ie10-viewport-bug-workaround.js" afterPath="$PROJECT_DIR$/public_html/assets/js/ie10-viewport-bug-workaround.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/assets/js/ie8-responsive-file-warning.js" afterPath="$PROJECT_DIR$/public_html/assets/js/ie8-responsive-file-warning.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/index.php" afterPath="$PROJECT_DIR$/public_html/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/assets/js/src/init.js" afterPath="$PROJECT_DIR$/public_html/assets/js/src/init.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/assets/css/jq.css" afterPath="$PROJECT_DIR$/public_html/assets/css/jq.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/assets/js/src/jquery-latest.js" afterPath="$PROJECT_DIR$/public_html/assets/js/src/jquery-latest.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/assets/js/jquery.js" afterPath="$PROJECT_DIR$/public_html/assets/js/jquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/assets/js/src/jquery.metadata.js" afterPath="$PROJECT_DIR$/public_html/assets/js/src/jquery.metadata.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/assets/js/src/jquery.tablesorter.js" afterPath="$PROJECT_DIR$/public_html/assets/js/src/jquery.tablesorter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/assets/js/src/jquery.tablesorter.min.js" afterPath="$PROJECT_DIR$/public_html/assets/js/src/jquery.tablesorter.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/assets/addons/pager/jquery.tablesorter.pager.css" afterPath="$PROJECT_DIR$/public_html/assets/addons/pager/jquery.tablesorter.pager.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/assets/addons/pager/jquery.tablesorter.pager.js" afterPath="$PROJECT_DIR$/public_html/assets/addons/pager/jquery.tablesorter.pager.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/assets/js/vendor/jszip.min.js" afterPath="$PROJECT_DIR$/public_html/assets/js/vendor/jszip.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/assets/js/vendor/less.min.js" afterPath="$PROJECT_DIR$/public_html/assets/js/vendor/less.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/assets/js/raw-files.min.js" afterPath="$PROJECT_DIR$/public_html/assets/js/raw-files.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/assets/js/sort_table.js" afterPath="$PROJECT_DIR$/public_html/assets/js/sort_table.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/assets/themes/blue/style.css" afterPath="$PROJECT_DIR$/public_html/assets/themes/blue/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/assets/js/vendor/uglify.min.js" afterPath="$PROJECT_DIR$/public_html/assets/js/vendor/uglify.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -113,32 +96,36 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public_html/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.314587" vertical-offset="1471" max-vertical-offset="4920">
-              <caret line="110" column="46" selection-start-line="110" selection-start-column="46" selection-end-line="110" selection-end-column="46" />
+            <state vertical-scroll-proportion="-46.25" vertical-offset="1260" max-vertical-offset="3945">
+              <caret line="158" column="28" selection-start-line="158" selection-start-column="28" selection-end-line="158" selection-end-column="28" />
               <folding>
-                <element signature="e#163#200#0#PHP" expanded="true" />
-                <marker date="1422217019528" expanded="true" signature="7244:7624" placeholder="SELECT Clien..Cliente..." />
-                <marker date="1422217019528" expanded="true" signature="9207:9633" placeholder="SELECT Clien..Cliente..." />
-                <marker date="1422217019528" expanded="true" signature="10273:10800" placeholder="SELECT Ender..Endereco..." />
-                <marker date="1422217019528" expanded="true" signature="11551:11680" placeholder="..." />
-                <marker date="1422217019528" expanded="true" signature="11683:11900" placeholder="..." />
-                <marker date="1422217019528" expanded="true" signature="11942:12037" placeholder="..." />
-                <marker date="1422217019528" expanded="true" signature="12155:12184" placeholder="..." />
+                <element signature="e#163#194#0#PHP" expanded="true" />
+                <marker date="1422286116238" expanded="true" signature="3966:4346" placeholder="SELECT Clien..Cliente..." />
+                <marker date="1422286116238" expanded="true" signature="5929:6355" placeholder="SELECT Clien..Cliente..." />
+                <marker date="1422286116238" expanded="true" signature="6995:7522" placeholder="SELECT Ender..Endereco..." />
+                <marker date="1422286116238" expanded="true" signature="8273:8402" placeholder="..." />
+                <marker date="1422286116238" expanded="true" signature="8405:8622" placeholder="..." />
+                <marker date="1422286116238" expanded="true" signature="8664:8759" placeholder="..." />
+                <marker date="1422286116238" expanded="true" signature="8877:8906" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fixtures.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="fixtures.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public_html/fixtures.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="1035">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.025773196" vertical-offset="0" max-vertical-offset="2145">
+              <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
               <folding>
-                <element signature="e#56#92#0#PHP" expanded="true" />
+                <element signature="e#56#93#0#PHP" expanded="true" />
+                <marker date="1422287824765" expanded="true" signature="453:483" placeholder="DROP TABLE I..." />
+                <marker date="1422287824765" expanded="true" signature="582:1114" placeholder="CREATE TABLE..Cliente..." />
+                <marker date="1422287824765" expanded="true" signature="1228:1259" placeholder="DROP TABLE I..." />
+                <marker date="1422287824765" expanded="true" signature="1358:1749" placeholder="CREATE TABLE..Endereco..." />
               </folding>
             </state>
           </provider>
@@ -147,8 +134,18 @@
       <file leaf-file-name="Connection.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Fersoftware/Database/Connection.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.625" vertical-offset="153" max-vertical-offset="735">
-              <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+            <state vertical-scroll-proportion="-6.25" vertical-offset="90" max-vertical-offset="705">
+              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.ini" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Fersoftware/Database/config.ini">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -190,8 +187,8 @@
       <file leaf-file-name="Query.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Fersoftware/Database/Query.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="3255">
-              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <state vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="3255">
+              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
               <folding>
                 <element signature="e#7#93#0#PHP" expanded="true" />
                 <element signature="e#128#165#0#PHP" expanded="true" />
@@ -223,15 +220,16 @@
       <list>
         <option value="$PROJECT_DIR$/src/Fersoftware/Classes/EnderecoAbstract.php" />
         <option value="$PROJECT_DIR$/src/Fersoftware/index.php" />
-        <option value="$PROJECT_DIR$/public_html/fixtures.php" />
         <option value="$PROJECT_DIR$/src/Fersoftware/Classes/PessoaFisica.php" />
         <option value="$PROJECT_DIR$/src/Fersoftware/Interfaces/ClienteInterface.php" />
         <option value="$PROJECT_DIR$/src/Fersoftware/Database/doctrinewnb.php" />
         <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/src/Fersoftware/Database/Connection.php" />
         <option value="$PROJECT_DIR$/src/Fersoftware/Functions/Tool.php" />
         <option value="$PROJECT_DIR$/src/Fersoftware/Database/Query.php" />
         <option value="$PROJECT_DIR$/public_html/index.php" />
+        <option value="$PROJECT_DIR$/src/Fersoftware/Database/config.ini" />
+        <option value="$PROJECT_DIR$/src/Fersoftware/Database/Connection.php" />
+        <option value="$PROJECT_DIR$/public_html/fixtures.php" />
       </list>
     </option>
   </component>
@@ -327,6 +325,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Fersoftware" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Desafio_02" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Desafio04" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Fersoftware" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Database" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -471,7 +491,13 @@
       <option name="project" value="LOCAL" />
       <updated>1421241667843</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Persistência de Dados">
+      <created>1422217759208</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1422217759208</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -479,19 +505,19 @@
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24926686" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328594" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24926686" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -518,7 +544,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="Refatorando" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refatorando" />
+    <MESSAGE value="Persistência de Dados" />
+    <option name="LAST_COMMIT_MESSAGE" value="Persistência de Dados" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -532,14 +559,14 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4065">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#163#200#0#PHP" expanded="true" />
-            <marker date="1422217019528" expanded="true" signature="7244:7624" placeholder="SELECT Clien..Cliente..." />
-            <marker date="1422217019528" expanded="true" signature="9207:9633" placeholder="SELECT Clien..Cliente..." />
-            <marker date="1422217019528" expanded="true" signature="10273:10800" placeholder="SELECT Ender..Endereco..." />
-            <marker date="1422217019528" expanded="true" signature="11551:11680" placeholder="..." />
-            <marker date="1422217019528" expanded="true" signature="11683:11900" placeholder="..." />
-            <marker date="1422217019528" expanded="true" signature="11942:12037" placeholder="..." />
-            <marker date="1422217019528" expanded="true" signature="12155:12184" placeholder="..." />
+            <element signature="e#163#194#0#PHP" expanded="true" />
+            <marker date="1422286116238" expanded="true" signature="3966:4346" placeholder="SELECT Clien..Cliente..." />
+            <marker date="1422286116238" expanded="true" signature="5929:6355" placeholder="SELECT Clien..Cliente..." />
+            <marker date="1422286116238" expanded="true" signature="6995:7522" placeholder="SELECT Ender..Endereco..." />
+            <marker date="1422286116238" expanded="true" signature="8273:8402" placeholder="..." />
+            <marker date="1422286116238" expanded="true" signature="8405:8622" placeholder="..." />
+            <marker date="1422286116238" expanded="true" signature="8664:8759" placeholder="..." />
+            <marker date="1422286116238" expanded="true" signature="8877:8906" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -549,7 +576,11 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="1035">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="9" selection-end-column="31" />
           <folding>
-            <element signature="e#56#92#0#PHP" expanded="true" />
+            <element signature="e#56#93#0#PHP" expanded="true" />
+            <marker date="1422287824765" expanded="true" signature="453:483" placeholder="DROP TABLE I..." />
+            <marker date="1422287824765" expanded="true" signature="582:1114" placeholder="CREATE TABLE..Cliente..." />
+            <marker date="1422287824765" expanded="true" signature="1228:1259" placeholder="DROP TABLE I..." />
+            <marker date="1422287824765" expanded="true" signature="1358:1749" placeholder="CREATE TABLE..Endereco..." />
           </folding>
         </state>
       </provider>
@@ -613,14 +644,14 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="2431" max-vertical-offset="4454">
           <caret line="143" column="19" selection-start-line="143" selection-start-column="19" selection-end-line="143" selection-end-column="19" />
           <folding>
-            <element signature="e#163#200#0#PHP" expanded="true" />
-            <marker date="1422217019528" expanded="true" signature="7244:7624" placeholder="SELECT Clien..Cliente..." />
-            <marker date="1422217019528" expanded="true" signature="9207:9633" placeholder="SELECT Clien..Cliente..." />
-            <marker date="1422217019528" expanded="true" signature="10273:10800" placeholder="SELECT Ender..Endereco..." />
-            <marker date="1422217019528" expanded="true" signature="11551:11680" placeholder="..." />
-            <marker date="1422217019528" expanded="true" signature="11683:11900" placeholder="..." />
-            <marker date="1422217019528" expanded="true" signature="11942:12037" placeholder="..." />
-            <marker date="1422217019528" expanded="true" signature="12155:12184" placeholder="..." />
+            <element signature="e#163#194#0#PHP" expanded="true" />
+            <marker date="1422286116238" expanded="true" signature="3966:4346" placeholder="SELECT Clien..Cliente..." />
+            <marker date="1422286116238" expanded="true" signature="5929:6355" placeholder="SELECT Clien..Cliente..." />
+            <marker date="1422286116238" expanded="true" signature="6995:7522" placeholder="SELECT Ender..Endereco..." />
+            <marker date="1422286116238" expanded="true" signature="8273:8402" placeholder="..." />
+            <marker date="1422286116238" expanded="true" signature="8405:8622" placeholder="..." />
+            <marker date="1422286116238" expanded="true" signature="8664:8759" placeholder="..." />
+            <marker date="1422286116238" expanded="true" signature="8877:8906" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -630,7 +661,11 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="1003">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
-            <element signature="e#56#92#0#PHP" expanded="true" />
+            <element signature="e#56#93#0#PHP" expanded="true" />
+            <marker date="1422287824765" expanded="true" signature="453:483" placeholder="DROP TABLE I..." />
+            <marker date="1422287824765" expanded="true" signature="582:1114" placeholder="CREATE TABLE..Cliente..." />
+            <marker date="1422287824765" expanded="true" signature="1228:1259" placeholder="DROP TABLE I..." />
+            <marker date="1422287824765" expanded="true" signature="1358:1749" placeholder="CREATE TABLE..Endereco..." />
           </folding>
         </state>
       </provider>
@@ -659,14 +694,14 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4454">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#163#200#0#PHP" expanded="true" />
-            <marker date="1422217019528" expanded="true" signature="7244:7624" placeholder="SELECT Clien..Cliente..." />
-            <marker date="1422217019528" expanded="true" signature="9207:9633" placeholder="SELECT Clien..Cliente..." />
-            <marker date="1422217019528" expanded="true" signature="10273:10800" placeholder="SELECT Ender..Endereco..." />
-            <marker date="1422217019528" expanded="true" signature="11551:11680" placeholder="..." />
-            <marker date="1422217019528" expanded="true" signature="11683:11900" placeholder="..." />
-            <marker date="1422217019528" expanded="true" signature="11942:12037" placeholder="..." />
-            <marker date="1422217019528" expanded="true" signature="12155:12184" placeholder="..." />
+            <element signature="e#163#194#0#PHP" expanded="true" />
+            <marker date="1422286116238" expanded="true" signature="3966:4346" placeholder="SELECT Clien..Cliente..." />
+            <marker date="1422286116238" expanded="true" signature="5929:6355" placeholder="SELECT Clien..Cliente..." />
+            <marker date="1422286116238" expanded="true" signature="6995:7522" placeholder="SELECT Ender..Endereco..." />
+            <marker date="1422286116238" expanded="true" signature="8273:8402" placeholder="..." />
+            <marker date="1422286116238" expanded="true" signature="8405:8622" placeholder="..." />
+            <marker date="1422286116238" expanded="true" signature="8664:8759" placeholder="..." />
+            <marker date="1422286116238" expanded="true" signature="8877:8906" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -682,6 +717,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.02905983" vertical-offset="0" max-vertical-offset="585">
           <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -701,16 +737,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/fixtures.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="1035">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="e#56#92#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Fersoftware/Functions/Tool.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-16.75" vertical-offset="138" max-vertical-offset="795">
@@ -718,33 +744,6 @@
           <folding>
             <element signature="e#41#77#0#PHP" expanded="true" />
             <marker date="1422210001274" expanded="true" signature="111:213" placeholder="INSERT INTO ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Fersoftware/Database/Connection.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.625" vertical-offset="153" max-vertical-offset="735">
-          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Fersoftware/Database/Query.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.125" vertical-offset="0" max-vertical-offset="3255">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <element signature="e#7#93#0#PHP" expanded="true" />
-            <element signature="e#128#165#0#PHP" expanded="true" />
-            <marker date="1422217019539" expanded="true" signature="649:747" placeholder="Insert INTO ..." />
-            <marker date="1422217019539" expanded="true" signature="951:1027" placeholder="INSERT INTO ..." />
-            <marker date="1422217019539" expanded="true" signature="1367:1777" placeholder="Insert INTO ..." />
-            <marker date="1422217019539" expanded="true" signature="1777:1871" placeholder="INSERT INTO ..." />
-            <marker date="1422217019539" expanded="true" signature="2563:2711" placeholder="Insert INTO ..." />
-            <marker date="1422217019539" expanded="true" signature="3316:3489" placeholder="INSERT INTO ..." />
-            <marker date="1422217019539" expanded="true" signature="4219:4420" placeholder="Insert INTO ..." />
-            <marker date="1422217019539" expanded="true" signature="5201:5374" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -767,17 +766,66 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public_html/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.314587" vertical-offset="1471" max-vertical-offset="4920">
-          <caret line="110" column="46" selection-start-line="110" selection-start-column="46" selection-end-line="110" selection-end-column="46" />
+        <state vertical-scroll-proportion="-46.25" vertical-offset="1260" max-vertical-offset="3945">
+          <caret line="158" column="28" selection-start-line="158" selection-start-column="28" selection-end-line="158" selection-end-column="28" />
           <folding>
-            <element signature="e#163#200#0#PHP" expanded="true" />
-            <marker date="1422217019528" expanded="true" signature="7244:7624" placeholder="SELECT Clien..Cliente..." />
-            <marker date="1422217019528" expanded="true" signature="9207:9633" placeholder="SELECT Clien..Cliente..." />
-            <marker date="1422217019528" expanded="true" signature="10273:10800" placeholder="SELECT Ender..Endereco..." />
-            <marker date="1422217019528" expanded="true" signature="11551:11680" placeholder="..." />
-            <marker date="1422217019528" expanded="true" signature="11683:11900" placeholder="..." />
-            <marker date="1422217019528" expanded="true" signature="11942:12037" placeholder="..." />
-            <marker date="1422217019528" expanded="true" signature="12155:12184" placeholder="..." />
+            <element signature="e#163#194#0#PHP" expanded="true" />
+            <marker date="1422286116238" expanded="true" signature="3966:4346" placeholder="SELECT Clien..Cliente..." />
+            <marker date="1422286116238" expanded="true" signature="5929:6355" placeholder="SELECT Clien..Cliente..." />
+            <marker date="1422286116238" expanded="true" signature="6995:7522" placeholder="SELECT Ender..Endereco..." />
+            <marker date="1422286116238" expanded="true" signature="8273:8402" placeholder="..." />
+            <marker date="1422286116238" expanded="true" signature="8405:8622" placeholder="..." />
+            <marker date="1422286116238" expanded="true" signature="8664:8759" placeholder="..." />
+            <marker date="1422286116238" expanded="true" signature="8877:8906" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Fersoftware/Database/Query.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.375" vertical-offset="0" max-vertical-offset="3255">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding>
+            <element signature="e#7#93#0#PHP" expanded="true" />
+            <element signature="e#128#165#0#PHP" expanded="true" />
+            <marker date="1422217019539" expanded="true" signature="649:747" placeholder="Insert INTO ..." />
+            <marker date="1422217019539" expanded="true" signature="951:1027" placeholder="INSERT INTO ..." />
+            <marker date="1422217019539" expanded="true" signature="1367:1777" placeholder="Insert INTO ..." />
+            <marker date="1422217019539" expanded="true" signature="1777:1871" placeholder="INSERT INTO ..." />
+            <marker date="1422217019539" expanded="true" signature="2563:2711" placeholder="Insert INTO ..." />
+            <marker date="1422217019539" expanded="true" signature="3316:3489" placeholder="INSERT INTO ..." />
+            <marker date="1422217019539" expanded="true" signature="4219:4420" placeholder="Insert INTO ..." />
+            <marker date="1422217019539" expanded="true" signature="5201:5374" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Fersoftware/Database/config.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Fersoftware/Database/Connection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.25" vertical-offset="90" max-vertical-offset="705">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/fixtures.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.025773196" vertical-offset="0" max-vertical-offset="2145">
+          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+          <folding>
+            <element signature="e#56#93#0#PHP" expanded="true" />
+            <marker date="1422287824765" expanded="true" signature="453:483" placeholder="DROP TABLE I..." />
+            <marker date="1422287824765" expanded="true" signature="582:1114" placeholder="CREATE TABLE..Cliente..." />
+            <marker date="1422287824765" expanded="true" signature="1228:1259" placeholder="DROP TABLE I..." />
+            <marker date="1422287824765" expanded="true" signature="1358:1749" placeholder="CREATE TABLE..Endereco..." />
           </folding>
         </state>
       </provider>
