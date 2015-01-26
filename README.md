@@ -1,12 +1,29 @@
 --------------------------------
 exemplo para acesso:<br>
-cd src<br>
-cd Fersoftware<br>
-php -S 127.0.0.1:8020<br>
+cd Desafio4<br>
+php -S 127.0.0.1:8020 -t public_html<br>
 ---------------------------------
 
+--------------------------------
+Persistência de dados - Desafio 4
+--------------------------------
+
+Nessa última fase do projeto, você, ao invés de trabalhar com arrays, você deverá persistir essas informações no banco de dados.
+
+Em suas fixtures, você deverá criar uma classe com métodos específicos para persistirem dados no banco. Você terá que injetar no construtor dessa classe um objeto PDO (somente PDO).
+
+Crie um método chamado persist dentro dessa mesma classe; esse método deverá receber como dependência um objeto do tipo Cliente.
+
+E para finalizar, crie um método chamado flush. Quando o método for executado, os dados devem ser persistidos no banco de dados.
+
+Perceba que a responsabilidade de gravar os dados no banco são especificamente dessa classe, sem adicionar nenhuma outra responsabilidade a ela.
+
+Boa sorte!
+
+PS: Depois disso implementado, a listagem dos clientes devem ser chamadas a partir do banco de dados e não mais de um conjunto de arrays.
+
 -------------------------------------------
-DESAFIO 03 - Refatoração <br>
+DESAFIO 03 - Refatoração - FINALIZADO - Próximo PERSISTENCIA DE DADOS<br>
 --------------------------------------------
 Refatore as classes utilizadas de seu projeto para que as mesmas trabalhem com namespaces.
 
