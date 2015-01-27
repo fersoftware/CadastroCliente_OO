@@ -8,8 +8,9 @@
 
 namespace Fersoftware\Database;
 
-use \Fersoftware\Database\Connection;
-use \Fersoftware\Functions\Tool;
+use Fersoftware\Database\Connection;
+use Fersoftware\Functions\Tool;
+use Fersoftware\Interfaces\ClienteInterface;
 
 
 class Query
@@ -106,86 +107,88 @@ class Query
         return true;
     }
 
-    public function persist($clientelaArr)
+    /**
+     * @param ClienteInterface $cliente
+     */
+    public function persist(ClienteInterface $cliente)
     {
         try
         {
             $this->conn->beginTransaction();
 
-            foreach ($clientelaArr as $key => $dbcliente)
+
+            if(!$cliente->isPJ())
             {
-                if(Tool::TypePerson($dbcliente->getCPFCNPJ()) == 'F')
-                {
-                    $cSql = "
-                    Insert INTO Cliente (Nome,CpfCnpj,Telefone,TipoPessoa,Estrelas)
-                              VALUES(:nome,:cpfcnpj,:telefone,:tipopessoa,:estrelas); ";
+                $cSql = "
+                Insert INTO Cliente (Nome,CpfCnpj,Telefone,TipoPessoa,Estrelas)
+                          VALUES(:nome,:cpfcnpj,:telefone,:tipopessoa,:estrelas); ";
 
-                    $id = $this->insertData($cSql,array(
-                            "nome"      => $dbcliente->getNome(),
-                            "cpfcnpj"   => $dbcliente->getCpfCnpj(),
-                            "telefone"  => $dbcliente->getTelefone(),
-                            "tipopessoa" => "F",
-                            "estrelas"  => $dbcliente->getStars()
+                $id = $this->insertData($cSql,array(
+                        "nome"      => $cliente->getNome(),
+                        "cpfcnpj"   => $cliente->getCpfCnpj(),
+                        "telefone"  => $cliente->getTelefone(),
+                        "tipopessoa" => "F",
+                        "estrelas"  => $cliente->getStars()
+                    )
+                );
+
+                $enderecos = $cliente->getEnderecos();
+
+
+                foreach ($enderecos as $endereco)
+                {
+                    $eSql = "INSERT INTO Endereco(IdCliente,Entrega,Endereco,Bairro,Cidade,UF,CEP)
+                                    VALUES (:idcliente,:entrega,:endereco,:bairro,:cidade,:uf,:cep);";
+
+                    $this->notReturn($eSql,array(
+                            "idcliente" => $id,
+                            "entrega"   => $endereco->getenderecoEntrega(),
+                            "endereco"  => $endereco->getEndereco(),
+                            "bairro"    => $endereco->getBairro(),
+                            "cidade"    => $endereco->getCidade(),
+                            "uf"        => $endereco->getEstado(),
+                            "cep"       => $endereco->getCEP()
                         )
                     );
-
-                    $enderecos = $dbcliente->getEnderecos();
-
-
-                    foreach ($enderecos as $endereco)
-                    {
-                        $eSql = "INSERT INTO Endereco(IdCliente,Entrega,Endereco,Bairro,Cidade,UF,CEP)
-                                        VALUES (:idcliente,:entrega,:endereco,:bairro,:cidade,:uf,:cep);";
-
-                        $this->notReturn($eSql,array(
-                                "idcliente" => $id,
-                                "entrega"   => $endereco->getenderecoEntrega(),
-                                "endereco"  => $endereco->getEndereco(),
-                                "bairro"    => $endereco->getBairro(),
-                                "cidade"    => $endereco->getCidade(),
-                                "uf"        => $endereco->getEstado(),
-                                "cep"       => $endereco->getCEP()
-                            )
-                        );
-                    }
-                }
-                else
-                {
-                    $cSql = "
-                    Insert INTO Cliente (Nome_Fantasia,RazaoSocial,CpfCnpj,TipoPessoa,Telefone,Nome,Estrelas)
-                              VALUES(:nomefantasia,:razaosocial,:cpfcnpj,:tipopessoa,:telefone,:nome,:estrelas); ";
-
-                    $id = $this->insertData($cSql,array(
-                            "nomefantasia"  => $dbcliente->getNomeFantasia(),
-                            "razaosocial"   => $dbcliente->getRazaoSocial(),
-                            "cpfcnpj"       => $dbcliente->getCpfCnpj(),
-                            "tipopessoa"    => "J",
-                            "telefone"      => $dbcliente->getTelefone(),
-                            "nome"          => $dbcliente->getContato(),
-                            "estrelas"      => $dbcliente->getStars()
-                        )
-                    );
-
-                    $enderecos = $dbcliente->getEnderecos();
-
-                    foreach ($enderecos as $endereco)
-                    {
-                        $eSql = "INSERT INTO Endereco(IdCliente,Entrega,Endereco,Bairro,Cidade,UF,CEP)
-                                        VALUES (:idcliente,:entrega,:endereco,:bairro,:cidade,:uf,:cep);";
-
-                        $this->notReturn($eSql,array(
-                                "idcliente" => $id,
-                                "entrega"   => $endereco->getenderecoEntrega(),
-                                "endereco"  => $endereco->getEndereco(),
-                                "bairro"    => $endereco->getBairro(),
-                                "cidade"    => $endereco->getCidade(),
-                                "uf"        => $endereco->getEstado(),
-                                "cep"       => $endereco->getCEP()
-                            )
-                        );
-                    }
                 }
             }
+            else
+            {
+                $cSql = "
+                Insert INTO Cliente (Nome_Fantasia,RazaoSocial,CpfCnpj,TipoPessoa,Telefone,Nome,Estrelas)
+                          VALUES(:nomefantasia,:razaosocial,:cpfcnpj,:tipopessoa,:telefone,:nome,:estrelas); ";
+
+                $id = $this->insertData($cSql,array(
+                        "nomefantasia"  => $cliente->getNomeFantasia(),
+                        "razaosocial"   => $cliente->getRazaoSocial(),
+                        "cpfcnpj"       => $cliente->getCpfCnpj(),
+                        "tipopessoa"    => "J",
+                        "telefone"      => $cliente->getTelefone(),
+                        "nome"          => $cliente->getContato(),
+                        "estrelas"      => $cliente->getStars()
+                    )
+                );
+
+                $enderecos = $cliente->getEnderecos();
+
+                foreach ($enderecos as $endereco)
+                {
+                    $eSql = "INSERT INTO Endereco(IdCliente,Entrega,Endereco,Bairro,Cidade,UF,CEP)
+                                    VALUES (:idcliente,:entrega,:endereco,:bairro,:cidade,:uf,:cep);";
+
+                    $this->notReturn($eSql,array(
+                            "idcliente" => $id,
+                            "entrega"   => $endereco->getenderecoEntrega(),
+                            "endereco"  => $endereco->getEndereco(),
+                            "bairro"    => $endereco->getBairro(),
+                            "cidade"    => $endereco->getCidade(),
+                            "uf"        => $endereco->getEstado(),
+                            "cep"       => $endereco->getCEP()
+                        )
+                    );
+                }
+            }
+
         }
         catch (\PDOException $e)
         {

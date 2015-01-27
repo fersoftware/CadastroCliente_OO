@@ -8,18 +8,10 @@ class PessoaFisica implements ClienteInterface
 {
     private $id;
     private $nome;
-    private $cpf_cnpj;
+    private $CpfCnpj;
     private $stars = 1;
     private $enderecos = array();
     private $telefone;
-
-    public function __construct($id,$nome,$telefone,$cpf_cnpj)
-    {
-        $this->setId($id)
-            ->setNome($nome)
-            ->setTelefone($telefone)
-            ->setCpfCnpj($cpf_cnpj);
-    }
 
     public function getId()
     {
@@ -52,6 +44,11 @@ class PessoaFisica implements ClienteInterface
     {
         $this->CpfCnpj = $CpfCnpj;
         return $this;
+    }
+
+    public function isPJ()
+    {
+        return false;
     }
 
 

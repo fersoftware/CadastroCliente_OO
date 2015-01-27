@@ -10,21 +10,11 @@ class PessoaJuridica implements ClienteInterface
     private $id;
     private $nomeFantasia;
     private $razaoSocial;
-    private $cpf_cnpj;
+    private $CpfCnpj;
     private $contato;
     private $telefone;
     private $enderecos = array();
     private $stars = 1;
-
-    public function __construct($id,$nomeFantasia,$razaoSocial,$cpf_cnpj,$contato,$telefone)
-    {
-        $this->setId($id)
-            ->setNomeFantasia($nomeFantasia)
-            ->setRazaoSocial($razaoSocial)
-            ->setCpfCnpj($cpf_cnpj)
-            ->setContato($contato)
-            ->setTelefone($telefone);
-    }
 
     public function getId()
     {
@@ -43,7 +33,7 @@ class PessoaJuridica implements ClienteInterface
 
     public function getCpfCnpj()
     {
-        return $this->cpf_cnpj;
+        return $this->CpfCnpj;
     }
 
     public function getContato()
@@ -66,6 +56,11 @@ class PessoaJuridica implements ClienteInterface
         return $this->stars;
     }
 
+    public function isPJ()
+    {
+        return true;
+    }
+
     public function setId($id)
     {
         $this->id = $id;
@@ -84,9 +79,9 @@ class PessoaJuridica implements ClienteInterface
         return $this;
     }
 
-    public function setCpfCnpj($cpf_cnpj)
+    public function setCpfCnpj($CpfCnpj)
     {
-        $this->cpf_cnpj = $cpf_cnpj;
+        $this->cpf_cnpj = $CpfCnpj;
         return $this;
     }
 
